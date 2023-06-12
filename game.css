@@ -1,0 +1,40 @@
+body
+{
+	background: black;
+}
+
+	.div1 , .div2
+	{
+		background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,32,255,1) 67%, rgba(248,5,255,1) 69%, rgba(255,58,111,1) 73%, rgba(142,198,92,1) 77%, rgba(0,212,255,1) 100%);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+h2{
+	color:white;
+}
